@@ -30,6 +30,7 @@ public class DashBoardPage {
        public void sampleElement(){
 	       
        }
+
 	public WebElement getAdminLink() {
 
 		return driver.findElement(admin);

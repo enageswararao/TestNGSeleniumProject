@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24848" started-at="2020-08-29T10:02:05 IST" finished-at="2020-08-29T10:02:30 IST">
+  <suite name="Default suite" duration-ms="35090" started-at="2020-09-05T18:33:59 IST" finished-at="2020-09-05T18:34:34 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24848" started-at="2020-08-29T10:02:05 IST" finished-at="2020-08-29T10:02:30 IST">
-      <class name="com.example.OrganLoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.example.OrganLoginTest@26aa12dd]" name="setup" is-config="true" duration-ms="15195" started-at="2020-08-29T10:02:05 IST" finished-at="2020-08-29T10:02:20 IST">
+    <test name="Default test" duration-ms="35090" started-at="2020-09-05T18:33:59 IST" finished-at="2020-09-05T18:34:34 IST">
+      <class name="com.example.DashBoradTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.example.DashBoradTest@26aa12dd]" name="setup" is-config="true" duration-ms="26989" started-at="2020-09-05T18:33:59 IST" finished-at="2020-09-05T18:34:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.example.OrganLoginTest@26aa12dd]" name="logintest" duration-ms="8039" started-at="2020-08-29T10:02:20 IST" finished-at="2020-08-29T10:02:28 IST">
+        <test-method status="PASS" signature="ClickonAdmin()[pri:0, instance:com.example.DashBoradTest@26aa12dd]" name="ClickonAdmin" duration-ms="2568" started-at="2020-09-05T18:34:26 IST" finished-at="2020-09-05T18:34:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.example.OrganLoginTest@26aa12dd]" name="teardown" is-config="true" duration-ms="1490" started-at="2020-08-29T10:02:29 IST" finished-at="2020-08-29T10:02:30 IST">
+        </test-method> <!-- ClickonAdmin -->
+        <test-method status="PASS" signature="ClickonLeave()[pri:0, instance:com.example.DashBoradTest@26aa12dd]" name="ClickonLeave" duration-ms="2643" started-at="2020-09-05T18:34:29 IST" finished-at="2020-09-05T18:34:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonLeave -->
+        <test-method status="PASS" signature="ClickonTime()[pri:0, instance:com.example.DashBoradTest@26aa12dd]" name="ClickonTime" duration-ms="1262" started-at="2020-09-05T18:34:31 IST" finished-at="2020-09-05T18:34:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonTime -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.example.DashBoradTest@26aa12dd]" name="teardown" is-config="true" duration-ms="1371" started-at="2020-09-05T18:34:33 IST" finished-at="2020-09-05T18:34:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.example.OrganLoginTest -->
+      </class> <!-- com.example.DashBoradTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
