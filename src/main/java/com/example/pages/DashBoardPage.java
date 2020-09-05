@@ -27,9 +27,10 @@ public class DashBoardPage {
 
 		this.driver = driver;
 	}
-    public void loginSample() {
-    	
-    }
+       public void sampleElement(){
+	       
+       }
+
 	public WebElement getAdminLink() {
 
 		return driver.findElement(admin);
